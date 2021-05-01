@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+div {
+    display: inline-block;
+}
+.one {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid black;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 200px;
+    left: 45.6%;
+}
+
+.two {
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 300px;
+    left: 30%;
+    
+}
+
+
+.three {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    top: 350px;
+    position: absolute;
+    left: 31%;
+    border: black solid ;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    top: 350px;
+    position: absolute;
+    left: 44.5%;
+    border: black solid ;
+}
+
+.five {
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 270px;
+    left: 30%;
+    border-radius: 20px 0 0 0;
+}
+
+
+.six {
+    width: 262px;
+    height: 20px;
+    background-color: white;
+    position: absolute; 
+    top: 270px;
+    left: 32%;
+}
+
+.seven {
+    width: 0;
+    height: 0;
+    border-bottom: 70px solid white;
+    border-right: 70px solid transparent;
+    position: absolute;
+    top: 220px;
+    left: 46%;
+}
+
+
+.eight {
+    width: 22px;
+    height: 25px;
+    background-color: black; 
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    top: 310px;
+    left: 49.6%;
+    border-left: white solid 0.2px;
+    border-top: white solid 0.2px;
+    border-bottom: white solid 0.2px;
+    border-right: black solid 0.2px;
+}
+
+span {
+    width:12px ;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    float: right;
+
+}
+
+
+.nine {
+    width: 22px;
+    height: 25px;
+    background-color: black; 
+    position: absolute;
+    z-index: 1;
+    position: absolute;
+    top: 310px;
+    left: 30%;
+    border-left: black solid 0.2px;
+    border-top: white solid 0.2px;
+    border-bottom: white solid 0.2px;
+    border-right: white solid 0.2px;
+}
+
+
+.nine span {
+    width:12px ;
+    height: 3px;
+    background-color: red;
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    float: left;
+
+}
